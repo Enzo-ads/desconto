@@ -1,10 +1,11 @@
-/* Compra menor que 100 -> sem desconto
+/* Compra menor que 50 -> sem desconto
    Compra maior que 50 -> desconto de 5%
-   Compra maior que AAAA -> desconto de 10%
+   Compra maior que 2008 -> desconto de 10%
 */
 
-var limite5 = 100   
-var limite10 = 500 
+var limite5 = 50   
+var limite10 = 2008 
+
 function calcular() {
     var total = Number(document.getElementById("tsd").value)
     var tDesconto = 0
